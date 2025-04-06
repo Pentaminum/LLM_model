@@ -3,7 +3,7 @@ import json
 
 from model.embedding import TokenEmbedding
 from model.positional_encoding import get_positional_encoding
-from tokenizer.tokenizer import CharTokenizer
+from tokenizer.BPE_tokenizer import CharTokenizer
 
 # hyperparameter
 seq_len = 32
